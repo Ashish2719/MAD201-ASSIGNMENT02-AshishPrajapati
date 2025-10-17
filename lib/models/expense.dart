@@ -1,7 +1,7 @@
 // Course: MAD201
 // Assignment 2
 // Name: [Your Name]
-// ID: [Your ID]
+// ID: [A00194842]
 // Description: Defines the Expense model for storing expense data.
 
 class Expense {
