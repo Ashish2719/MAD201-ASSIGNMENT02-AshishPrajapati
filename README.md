@@ -1,16 +1,30 @@
-# expensetracker
+# Personal Expense Tracker App
 
-A new Flutter project.
+## Overview
+This Flutter app allows users to record, view, and manage their daily expenses.  
+Users can add new expenses with details like title, amount, description, and date.  
+The app displays all expenses in a list and lets users view detailed information for each expense.
 
-## Getting Started
+## Features
+- Add new expenses with validation
+- View all expenses in a scrollable list
+- See detailed information for each expense
+- Simple and intuitive multi-screen navigation
 
-This project is a starting point for a Flutter application.
+## Project Structure
+- `models/expense.dart`: Expense data model
+- `screens/home_screen.dart`: Displays list of expenses and total summary
+- `screens/add_expense_screen.dart`: Form to add new expenses
+- `screens/expense_detail_screen.dart`: Shows detailed expense info
+- `main.dart`: App entry point
 
-A few resources to get you started if this is your first Flutter project:
+## How to Run
+1. Clone the repository  
+2. Run `flutter pub get` to install dependencies  
+3. Use `flutter run` to start the app on an emulator or device
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Author
+[Ashish Prajapati] - [A00194842]
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## License
+This project is licensed under the MIT License.
