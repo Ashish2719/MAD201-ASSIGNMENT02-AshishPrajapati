@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors
+
 import 'package:flutter/material.dart';
 import '../models/expense.dart';
 
@@ -5,6 +7,7 @@ import '../models/expense.dart';
 class ExpenseDetailScreen extends StatelessWidget {
   final Expense expense;
 
+  // ignore: prefer_const_constructors_in_immutables
   ExpenseDetailScreen({required this.expense});
 
   @override
